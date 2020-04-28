@@ -10,7 +10,7 @@ class Database  {
     * */ 
     public static function dbConnect():PDO
     {
-        $pdo = new PDO('mysql:host=localhost;dbname=espace_membres;charset=utf8', 'root', 'root',[
+        $pdo = new PDO('mysql:host=localhost;dbname=espace_membres;charset=utf8', '******', '*',[
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
         ]);
